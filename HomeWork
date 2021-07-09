@@ -1,0 +1,81 @@
+package geekbrains.homework;
+
+public class HomeWorkApp {
+
+    public static void main(String[] args) {
+        printThreeWords();
+        checkSumSign(-8, 5);
+        printColor(0);
+        compareNumbers(2,5);
+
+        }
+// Задача №2
+    static void  printThreeWords() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
+    }
+// Задача №3
+    static  void checkSumSign(int a, int b) {
+        int sum = a+b;
+        if (sum >= 0) {
+            System.out.println("Сумма положительна");
+        } else {
+            System.out.println("Сумма отрицательная");
+        }
+    }
+// Задача №4
+    static void printColor( int value) {
+        if ( value <= 0) {
+            System.out.println("Красный");
+        } else if ( value > 0 && value <= 100 ) {
+            System.out.println("Желтый");
+        } else {
+            System.out.println("Зеленый");
+        }
+
+    }
+// Задача №5
+    static  void compareNumbers(int a, int b) {
+        if (a > b) {
+            System.out.println(" a>b ");
+        } else if (a<b) {
+            System.out.println(" a<b ");
+        } else {
+            System.out.println(" a=b ");
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
